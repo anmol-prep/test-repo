@@ -1,15 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Hello, world!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="icon" href="favicon.png">
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
-<body class="bg-sky-500">
-  <h1 class="text-3xl text-white text-center">Hello, world!</h1>
-  <p>This is the fisrt pages on github pages.</p>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <div class="w-full h-22 bg-black flex items-center justify-center">
+    <div class="w-[90vw] h-16 flex justify-between items-center px-4 md:px-8 lg:px-12">
+        
+        <!-- Logo Section -->
+        <div class="w-[50%] md:w-[25%] flex justify-start items-center">
+            <img src="https://www.codehelp.in/_next/image?url=%2Fassets%2FCommon%2FWhitelogoGIF.gif&w=640&q=75" class="h-10 md:h-12">
+        </div>
+        
+        <!-- Navigation Links -->
+        <div class="hidden md:flex w-[50%] justify-around items-center">
+            <a href="#hero" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Home</a>
+            <a href="#courses" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Courses</a>
+            <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Tutorial</a>
+            <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Contact</a>
+           <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">About</a>
+        </div>
+        
+        <!-- Login Button -->
+        <div class="w-[50%] md:w-[25%] flex justify-end">
+            <button class="bg-blue-200 px-5 md:px-7 py-2 md:py-3 rounded-full cursor-pointer hover:bg-blue-900 hover:text-white font-bold text-lg md:text-2xl">Login</button>
+        </div>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<section  id="hero" class="w-full h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Welcome to Our Learning Platform</h1>
+    <p class="text-lg md:text-2xl max-w-2xl mb-6">Empowering students and professionals with high-quality courses, tutorials, and resources to excel in their careers.</p>
+    <button class="bg-white text-purple-600 px-6 py-3 rounded-full font-bold text-lg hover:bg-purple-700 hover:text-white transition-all duration-300">Get Started</button>
+</section>
+
+<!-- Courses Section -->
+<section id="courses" class="w-full py-16 bg-gray-100">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-gray-800">Our Popular Courses</h2>
+        <p class="text-lg text-gray-600 mt-2">Explore our trending courses and upgrade your skills</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-12">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-1_y4llaq.jpg" alt="Course" class="w-full h-56 object-cover rounded-m">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800">Full-Stack Web Development</h3>
+                <p class="text-gray-600 mt-2">Master front-end and back-end development with modern frameworks.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-2_udjkkh.jpg" alt="Course" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800">Python for Data Science</h3>
+                <p class="text-gray-600 mt-2">Learn Python and its application in data analysis and AI.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800">UI/UX Design Fundamentals</h3>
+                <p class="text-gray-600 mt-2">Understand the principles of user experience and interface design.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800">Digital Marketing Mastery</h3>
+                <p class="text-gray-600 mt-2">Learn SEO, social media marketing, and online advertising.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800">Artificial Intelligence & ML</h3>
+                <p class="text-gray-600 mt-2">Dive into AI and machine learning concepts and applications.</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800">Cybersecurity Essentials</h3>
+                <p class="text-gray-600 mt-2">Protect systems and networks from cyber threats.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-6 text-center">
+    <div class="container mx-auto">
+        <p class="text-lg font-semibold">&copy; 2025 Anmol's Learning Platform. All rights reserved.</p>
+        <div class="flex justify-center space-x-4 mt-4">
+            <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+            <a href="#" class="hover:text-gray-400">Terms of Service</a>
+            <a href="#" class="hover:text-gray-400">Contact Us</a>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
