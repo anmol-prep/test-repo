@@ -7,98 +7,172 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Anmol: Learning</title>
   </head>
-  <div class="w-full h-22 bg-black flex items-center justify-center">
-    <div class="w-[90vw] h-16 flex justify-between items-center px-4 md:px-8 lg:px-12">
-        
-        <!-- Logo Section -->
-        <div class="w-[50%] md:w-[25%] flex justify-start items-center">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740546218/CH-Logo_dg8ydy.gif" class="h-10 md:h-12">
-        </div>
-        
-        <!-- Navigation Links -->
-        <div class="hidden md:flex w-[50%] justify-around items-center">
-            <a href="#hero" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Home</a>
-            <a href="#courses" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Courses</a>
-            <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Tutorial</a>
-            <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Contact</a>
-           <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">About</a>
-        </div>
-        
-        <!-- Login Button -->
-        <div class="w-[50%] md:w-[25%] flex justify-end">
-            <button class="bg-blue-200 px-5 md:px-7 py-2 md:py-3 rounded-full cursor-pointer hover:bg-blue-900 hover:text-white font-bold text-lg md:text-2xl">Login</button>
+  <body>
+    <div class="w-full h-22 bg-black flex items-center justify-center">
+        <div class="w-[90vw] h-16 flex justify-between items-center px-4 md:px-8 lg:px-12">
+            
+            <!-- Logo Section -->
+            <div class="w-[50%] md:w-[25%] flex justify-start items-center">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740546218/CH-Logo_dg8ydy.gif" class="h-10 md:h-12">
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="hidden md:flex w-[50%] justify-around items-center">
+                <a href="#hero" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Home</a>
+                <a href="#courses" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Courses</a>
+                <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Blog</a>
+                <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">Contact US</a>
+               <a href="#" class="text-lg md:text-xl font-bold hover:underline decoration-red-700 text-white">About US</a>
+            </div>
+            
+            <!-- Login Button -->
+            <div class="w-[50%] md:w-[25%] flex justify-end">
+                <button class="bg-blue-200 px-5 md:px-7 py-2 md:py-3 rounded-full cursor-pointer hover:bg-blue-900 hover:text-white font-bold text-lg md:text-2xl">Login</button>
+            </div>
         </div>
     </div>
-</div>
 
 <!-- Hero Section -->
-<section  id="hero" class="w-full h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6">
-    <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Welcome to Our Learning Platform</h1>
-    <p class="text-lg md:text-2xl max-w-2xl mb-6">Empowering students and professionals with high-quality courses, tutorials, and resources to excel in their careers.</p>
-    <button class="bg-white text-purple-600 px-6 py-3 rounded-full font-bold text-lg hover:bg-purple-700 hover:text-white transition-all duration-300">Get Started</button>
+  <section  id="hero" class="w-full h-screen flex flex-col items-center justify-center text-center bg-gradient-to-r from-purple-500 to-pink-500 text-white p-6">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Welcome to Anmol Learning Platform</h1>
+        <p class="text-lg md:text-2xl max-w-2xl mb-6">Empowering students and professionals with high-quality courses, tutorials, and resources to excel in their careers.</p>
+        <button class="bg-white text-purple-600 px-6 py-3 rounded-full font-bold text-lg hover:bg-purple-700 hover:text-white transition-all duration-300 cursor-pointer">Get Started</button>
+    </section>
+
+ <!-- Courses Section -->
+    <section id="courses" class="w-full py-16 bg-gray-200">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800">Our Popular Courses</h2>
+            <p class="text-lg text-gray-600 mt-2">Explore our trending courses and upgrade your skills</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-12">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-1_y4llaq.jpg" alt="Course" class="w-full h-56 object-cover rounded-m">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Full-Stack Web Development</h3>
+                    <p class="text-gray-600 mt-2">Master front-end and back-end development with modern frameworks.</p>
+                </div>
+              <div class="flex space-x-10 md:space-x-20 pb-3 pl-3">
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Know More ➔</button>
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Enorll Now </button>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-2_udjkkh.jpg" alt="Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Python for Data Science</h3>
+                    <p class="text-gray-600 mt-2">Learn Python and its application in data analysis and AI.</p>
+                  <br>
+                </div>
+              <div class="flex space-x-10 md:space-x-20 pb-3 pl-3">
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Know More ➔</button>
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Enorll Now </button>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">UI/UX Design Fundamentals</h3>
+                    <p class="text-gray-600 mt-2">Understand the principles of user experience and interface design.</p>
+                </div>
+              <div class="flex space-x-10 md:space-x-20 pb-3 pl-3">
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Know More ➔</button>
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Enorll Now </button>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Digital Marketing Mastery</h3>
+                    <p class="text-gray-600 mt-2">Learn SEO, social media marketing, and online advertising.</p>
+                </div>
+              <br>
+              <div class="flex space-x-10 md:space-x-20 pb-3 pl-3">
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Know More ➔</button>
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Enorll Now </button>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Artificial Intelligence & ML</h3>
+                    <p class="text-gray-600 mt-2">Dive into AI and machine learning concepts and applications.</p>
+                </div>
+              <div class="flex space-x-10 md:space-x-20 pb-3 pl-3">
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Know More ➔</button>
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Enorll Now </button>
+              </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-800">Cybersecurity Essentials</h3>
+                    <p class="text-gray-600 mt-2">Protect systems and networks from cyber threats.</p>
+                </div>
+              <br>
+              <div class="flex space-x-10 md:space-x-20 pb-3 pl-3">
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Know More ➔</button>
+                <button class="bg-blue-300 px-6 py-4 cursor-pointer text-xl text-bold rounded-full hover:bg-blue-700 hover:text-white"> Enorll Now </button>
+              </div>
+            </div>
+        </div>
+    </section>
+<!-- Call to Action -->
+    <section class="bg-gray-700 text-white py-16 text-center">
+        <h2 class="text-3xl font-bold mb-4">Start Learning Today!</h2>
+        <p class="mb-6">Join thousands of learners and upskill your career.</p>
+        <button class="bg-white text-blue-500 px-6 py-3 rounded-xl text-xl font-semibold hover:bg-blue-500 hover:text-white cursor-pointer">Join for Free</button>
+    </section>
+<!-- Corporate training Section -->
+
+<section class="bg-[url(https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740387114/samples/ecommerce/leather-bag-gray.jpg)] bg-fill text-white py-16 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+            Upskill Your Team with Custom Training Solutions
+        </h2>
+        <p class="text-black text-[20px] mb-8">
+            Join top companies that trust our platform to train and upskill their employees.
+        </p>
+
+        <!-- Partner Logos (Carousel) -->
+        <div class="flex justify-center items-center gap-8 flex-wrap animate-marquee">
+            <img src="https://lh3.googleusercontent.com/IsGCHOz6W_CthCyx28PlKaZSzTHMY-nzZVBu0UUKTkhfD52WmJ-xvOIverssPjgBAGeSIBGwbP2qt7OJ-HpI7t-mToRc_xSFhCDv" alt="Google" class="h-12">
+            <img src="https://lh3.googleusercontent.com/07a4Ax2jLGyayhV2afVs3YElTEjSRYJIwyh_th546Xe7gRoShHBXJ9O7IPlcVnL8SxbZaQWKBDnm-_KsYSbaYNB_HuojmDFEYNDB-BAfGKCwF0BTwiR4" alt="Microsoft" class="h-12">
+            <img src="https://lh3.googleusercontent.com/eO15LnFfFD9ECIPAuGsimtAJM04IrdnfSlWJKkZI-isxN38Cxu4HwwWqP_3kYUTGyqWVKujUV0Dh9qLCyNeS1azfe02E4KzqttY3eg" alt="Amazon" class="h-12">
+            <img src="https://lh3.googleusercontent.com/rZEsBmeRyMQczR3UUN2CurlOXQxMGCsINJXAf78NYuch-dZe_K7IomczipfYAl8-rawOeM6aaVdIsPXxVz0sp33ZTQdUg3yGuYDn" alt="IBM" class="h-12">
+            <img src="https://lh3.googleusercontent.com/GeY6PNXgD5wNNQT1jBzZPyOF-IsCET7oVfkxd6Jw4iLDmLuBgKpv78JdvvzXlpebpSB-S798aEERkVs3HwksquW-Z31GwV7TjIEr" alt="LinkedIn" class="h-12">
+        </div>
+
+        <!-- Call to Action -->
+        <div class="mt-10">
+            <a href="#" class="bg-blue-500 hover:bg-blue-800 text-white font-semibold py-3 px-6 rounded-xl text-lg shadow-lg transition">
+                Request a Demo
+            </a>
+        </div>
+    </div>
 </section>
 
-<!-- Courses Section -->
-<section id="courses" class="w-full py-16 bg-gray-100">
-    <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold text-gray-800">Our Popular Courses</h2>
-        <p class="text-lg text-gray-600 mt-2">Explore our trending courses and upgrade your skills</p>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6 md:px-12">
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-1_y4llaq.jpg" alt="Course" class="w-full h-56 object-cover rounded-m">
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Full-Stack Web Development</h3>
-                <p class="text-gray-600 mt-2">Master front-end and back-end development with modern frameworks.</p>
-            </div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-2_udjkkh.jpg" alt="Course" class="w-full h-56 object-cover">
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Python for Data Science</h3>
-                <p class="text-gray-600 mt-2">Learn Python and its application in data analysis and AI.</p>
-            </div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">UI/UX Design Fundamentals</h3>
-                <p class="text-gray-600 mt-2">Understand the principles of user experience and interface design.</p>
-            </div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Digital Marketing Mastery</h3>
-                <p class="text-gray-600 mt-2">Learn SEO, social media marketing, and online advertising.</p>
-            </div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Artificial Intelligence & ML</h3>
-                <p class="text-gray-600 mt-2">Dive into AI and machine learning concepts and applications.</p>
-            </div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-            <img src="https://res.cloudinary.com/dsk0mhwfq/image/upload/v1740482960/FS-3_hxyomy.jpg" alt="Course" class="w-full h-56 object-cover">
-            <div class="p-6">
-                <h3 class="text-xl font-bold text-gray-800">Cybersecurity Essentials</h3>
-                <p class="text-gray-600 mt-2">Protect systems and networks from cyber threats.</p>
-            </div>
-        </div>
-    </div>
-</section>
+  
+
+    <!-- Newsletter Signup -->
+<section class="bg-blue-100  py-16 px-6 text-center">
+        <h2 class="text-3xl  font-bold mb-4">Subscribe to Our Newsletter</h2>
+        <p class="mb-6 text-gray-800">Get updates on new courses and exclusive offers.</p>
+        <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l border">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-r cursor-pointer">Subscribe</button>
+    </section>
 <!-- Footer -->
-<footer class="bg-gray-900 text-white py-6 text-center">
-    <div class="container mx-auto">
-        <p class="text-lg font-semibold">&copy; 2025 Anmol's Learning Platform. All rights reserved.</p>
-        <div class="flex justify-center space-x-4 mt-4">
-            <a href="#" class="hover:text-gray-400">Privacy Policy</a>
-            <a href="#" class="hover:text-gray-400">Terms of Service</a>
-            <a href="#" class="hover:text-gray-400">Contact Us</a>
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <div class="container mx-auto">
+            <p class="text-lg font-semibold">&copy; 2025 Anmol's Learning Platform. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-gray-400">Privacy Policy</a>
+                <a href="#" class="hover:text-gray-400">Terms of Service</a>
+                <a href="#" class="hover:text-gray-400">Contact Us</a>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
-</html>
+  </body>
+  </html>
